@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# Havenly - Real Estate Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Havenly is a mobile application designed for exploring real estate properties. Built with React Native, Expo, and Appwrite, this app allows users to view, search, and categorize real estate listings with ease. The app also features Google login for a seamless authentication experience.
 
-## Get started
+## Features
+- **User Authentication:** Sign in using Google account.
+- **Property Listings:** Browse a wide range of real estate properties.
+- **Search Functionality:** Quickly find properties by keywords and categories.
+- **Categorization:** Filter listings based on property type and other criteria.
+- **Responsive Design:** Optimized for both Android and iOS devices.
 
-1. Install dependencies
+## Technologies Used
+- **Frontend:** React Native, Expo
+- **Backend:** Appwrite
+- **Authentication:** Google Login
+- **Database:** Appwrite Database
 
-   ```bash
-   npm install
-   ```
+## Installation
+1. Clone the repository:  
+   `git clone https://github.com/tharushiImasha/Real-Estate--ReactNative.git`
+   
+2. Navigate to the project directory:  
+   `cd real-estate--reactnative`
+   
+3. Install dependencies:  
+   `npm install`
+   
+4. Start the development server:  
+   `expo start`
 
-2. Start the app
+## Usage
+1. Open the app on your device or simulator.
+2. Click on the "Sign in with Google" button to authenticate.
+3. Explore the property listings and use the search feature to find specific listings.
 
-   ```bash
-    npx expo start
-   ```
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss improvements.
 
-In the output, you'll find options to open the app in a
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Acknowledgements
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Appwrite](https://appwrite.io/)
